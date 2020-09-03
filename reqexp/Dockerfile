@@ -21,7 +21,7 @@ RUN pip3 install Flask==1.1.1
 RUN pip3 install --user --upgrade tensorflow==1.14
 RUN pip3 install pandas numpy scikit-learn spacy GPUtil
 RUN python3 -m spacy download en_core_web_sm
-RUN pip3 install -U bert-serving-server bert-serving-client
+RUN pip3 install -U bert-serving-server==1.10.0 bert-serving-client==1.10.0
 
 COPY scripts/ /home/ubuntu/bert/
 RUN wget https://github.com/ambpro/reqexp-deployment/releases/download/1.0/uncased_L-12_H-768_A-12-20200617T114030Z-001.zip 
