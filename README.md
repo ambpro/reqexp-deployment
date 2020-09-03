@@ -1,7 +1,7 @@
 # Reqexp-deployment
 This repository contains the Docker configuration files for the deployment of the ReqExp project.
 
-## Prerequisites
+## Reqexp Technical stack
 ReqExp server needs around 8 GB of RAM. ReqExp is based on the following technology stack:
 * Ubuntu 18.04
 * Python 3.5+
